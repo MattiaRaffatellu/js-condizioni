@@ -20,3 +20,9 @@
 
 // # Fase di output
 
+const name = "Mattia";
+let age = 26;
+const work = "sviluppatore"; 
+console.log('Mi chiamo ' + name + ', ho ' + age + ' e faccio lo ' + work + '.');
+console.log(`Mi chiamo ${name}, ho ${age} e faccio lo ${work}.`);
+console.log(`Fra 10 anni avrò ${age + 10}.`)
