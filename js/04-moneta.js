@@ -10,13 +10,17 @@
 */
 
 // # Fase di preparazione
-
+const moneta = Math.random(); 
 
 // # Fase di raccolta dati
 
 
 // # Fase di elaborazione
-
-
+if (moneta < 0.5) {
+  alert('testa')
+} else {
+  alert('croce')
+}
+ console.log(`è uscito ${moneta}`);
 // # Fase di output
 
